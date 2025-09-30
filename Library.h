@@ -99,7 +99,7 @@ public:
         cout << "Book not found.\n";
     }
 
-    // Flexible search: partial match works
+    
     void searchBookByTitle(string title) {
         bool found = false;
         for (Book &b : books) {
@@ -130,3 +130,4 @@ public:
 };
 
 #endif
+
