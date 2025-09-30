@@ -23,7 +23,7 @@ int main() {
         cout << "Enter choice: ";
         cin >> choice;
 
-        // Clear input buffer after reading choice
+      
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
         if (choice == 1) {
@@ -84,3 +84,4 @@ int main() {
 
     return 0;
 }
+
